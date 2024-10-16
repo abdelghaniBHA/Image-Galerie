@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
+
+body{
+    background: #191919;
+}
+
+.galery{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.galery div img{
+    width: 100%;
+}
+
+.galery::-webkit-scrollbar{
+    display: none;
+}
